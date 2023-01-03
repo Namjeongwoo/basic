@@ -17,6 +17,7 @@ function App() {
   let [logo, setLogo] = useState('ReactBlog');
   return (
     <div className="App">
+<<<<<<< HEAD
       <div className="black-nav">
         <h4 style={ {color : 'red', fontSize : '16px'}}>{ logo }</h4>
       </div>
@@ -26,6 +27,22 @@ function App() {
         <p>1월 2일 발행</p>
       </div>
 
+=======
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          안녕하세요
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+>>>>>>> 411f36425ce26f6cec95bc1e23ec3245ae4478a8
     </div>
   );
 }
